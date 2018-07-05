@@ -5,6 +5,8 @@ public class App {
 		if(data!=null){
 		if (data.equals(Constant.DATA_TYPE)) {
 			System.out.println("Welcome");
+		}else{
+			System.out.println("not valid user");
 		}
 		}
 	}
